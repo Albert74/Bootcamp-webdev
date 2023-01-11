@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    width:600px;
+    margin:20px auto;
+    padding: 20px;
+
+}
+
+section#hex{
+    background-color: antiquewhite;
+    width: 500px;
+    height: auto;
+
+
+}
+section  div{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin: 10px;
+}
+
+section#hex div:first-child{
+    background-color: #0e69e9;
+}
+section#hex div:nth-child(2){
+    background-color: #dac617;
+
+}
+
+section#hex div:nth-child(3){
+    background-color: #dac617;
+}
+
+
+section#hex div:last-child{
+    background-color: #d52717;
+}
+section#rgb div:first-of-type{
+    background-color: rgb(123,100,0);
+}
+section#rgb div:nth-of-type(2){
+    background-color: rgb(127, 255, 0);
+}

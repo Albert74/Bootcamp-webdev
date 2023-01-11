@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.featured-section{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(42, 0, 139);
+    align-items: center;
+}
+div.image{
+    width: 200px;
+    overflow: none;
+
+}
+
+div.image{
+    width: 400px;
+}
